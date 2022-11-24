@@ -1,0 +1,15 @@
+.result {
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#echo-php {
+    background: #787cb5;
+    color: #ffffff;
+}
+
+#echo-js {
+    background: #f0db4f;
+    color: #ffffff;
+}
