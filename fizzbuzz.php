@@ -6,6 +6,7 @@
     <head>
         <title><?php echo $title; ?></title>
         <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+        <script src="./assets/js/fizzbuzz.js" type="text/javascript"></script>
     </head>
     <body>
             <p id="echo-php" class="result">
@@ -23,6 +24,5 @@
                 ?>
             </p>
             <p id="echo-js" class="result"></p>
-        <script src="./assets/js/fizzbuzz.js" type="text/javascript"></script>
     </body>
 </html>
