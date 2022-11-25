@@ -1,15 +1,31 @@
-.result {
+:root {
+    --white: #fff;
+}
+
+* {
+    font-family: sans-serif;
     box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+.result-container {
+    padding: 1rem;
+}
+
+.result {
     padding: 1rem;
     border-radius: 1rem;
 }
 
 #echo-php {
     background: #787cb5;
-    color: #ffffff;
+    color: var(--white);
 }
 
 #echo-js {
     background: #f0db4f;
-    color: #ffffff;
+    color: var(--white);
 }
